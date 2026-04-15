@@ -605,3 +605,10 @@ ul {
 .footer nav a:hover {
     color: #c9b99a;
 }
+a {
+    transition: opacity 0.3s ease;
+}
+
+a:hover {
+    opacity: 0.7;
+}
