@@ -446,6 +446,49 @@ ul {
     margin-bottom: 18px;
     font-weight: normal;
 }
+@media (max-width: 768px) {
+
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav ul {
+        gap: 20px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero p {
+        font-size: 10px;
+    }
+
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro aside {
+        justify-content: center;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .services main {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
 .services article h3 {
     font-family: 'Cormorant Garamond', serif;
