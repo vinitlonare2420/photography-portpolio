@@ -617,3 +617,16 @@ a:hover {
     width: 100%;
     object-fit: cover;
 }
+@media (max-width: 480px) {
+    .hero {
+        padding: 0 20px;
+    }
+
+    .portfolio,
+    .contact,
+    .services,
+    .about,
+    .intro {
+        padding: 60px 20px;
+    }
+}
