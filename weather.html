@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather — Vinit Lonare</title>
+
+    <!-- FONTS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=DM+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR (same as other pages) -->
+    <div class="nav">
+        <a href="index.html">V — L</a>
+
+        <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+            <li><a href="weather.html" class="nav-link active">Weather</a></li>
+        </ul>
+
+        <aside>
+            <a href="https://www.instagram.com/vinit.24.07" target="_blank">Instagram</a>
+            <a href="https://discord.com/users/vinit2420" target="_blank">Discord</a>
+            <a href="https://twitter.com/vinit2420" target="_blank">Twitter</a>
+        </aside>
+    </div>
+
+    <!-- WEATHER SECTION -->
+    <div class="contact">
+        <span>Weather Tool</span>
+
+        <h2>Check <em>Photography</em> Weather</h2>
+
+        <p>Enter your location to know if it's good for photography.</p>
+
+        <!-- INPUT -->
+        <div style="margin-top:30px;">
+            <input type="text" id="city" placeholder="Enter city" style="padding:12px; width:220px;">
+            <button onclick="getWeather()">Search</button>
+            <button onclick="getLocationWeather()">📍</button>
+        </div>
+
+        <!-- RESULT -->
+        <div id="weatherResult" style="margin-top:40px;"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <p>© 2026 Vinit Lonare</p>
+
+        <a href="index.html">V — L</a>
+
+        <nav>
+            <a href="https://www.instagram.com/vinit.24.07" target="_blank">Instagram</a>
+            <a href="https://discord.com/users/vinit2420" target="_blank">Discord</a>
+            <a href="https://twitter.com/vinit2420" target="_blank">Twitter</a>
+        </nav>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
